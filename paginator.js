@@ -81,7 +81,7 @@ class Paginator
                 paginationItemsMarkup += itemMarkup;
             }
 
-            markup = "<ul class='pagination raised'>" + paginationFirstPage + paginationPreviousPage + paginationItemsMarkup + paginationNextPage + paginationLastPage + "</ul>";
+            markup = "<ul class='pagination'>" + paginationFirstPage + paginationPreviousPage + paginationItemsMarkup + paginationNextPage + paginationLastPage + "</ul>";
         }
 
         return markup;
